@@ -26,7 +26,10 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  
+  .icon-times-circle:before {
+    content: "\f057";
+  }
+
   .icon-chevron-up:before {
     content: "\f077";
   }
