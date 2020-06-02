@@ -2,7 +2,74 @@
 
 
 
-@media (max-width:1700px){
+@media (max-width:375px){
+    .header__person-text{
+        display: none;
+    }
+    .header__box{
+        &-title{
+            max-width: 346px;
+        }
+        &-text{
+            max-width: 345px;
+            font-size: 15px;
+        }
+    }
 
+    .header{
+        &__inner{
+            padding: 20px 15px;
+            
+        }
+    }
+
+    .present-img{
+        height: 220px;
+        width: 375px;
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    .tab-title{
+        //max-width: 302px;
+        padding: 15px 50px 15px 15px; 
+        position: relative;
+        &::after{
+            position: absolute;
+            top: 30px;
+            right: 15px;
+        }
+        
+    }
+    .tab-content-inner{
+        display: block;
+        
+    }
+    .tab-content-img{
+        margin-left: 48px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tab-content {
+        padding: 15px 15px; 
+        color: #fff;
+        
+    }
+
+    .tab-content-form{
+        width: 100%;
+        button{
+            width: 100%;
+        }
+    }
+
+    .img_two{
+        display: none;
+    }
+    .img_one{
+        display: block;
+    }
 }
 
